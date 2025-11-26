@@ -74,3 +74,23 @@ El ciclo de diálogo persiste hasta que el **Cliente** ingresa `"1"`. El Cliente
 ### Ejemplo de Interacción (Cliente)
 
 El cliente guiará la interacción:
+
+```
+run:
+Socket escuchando en puerto 5000
+Ya se conecto el cliente
+Palabra a comparar: carro
+Palabra a comparar: oso
+Ya termine de recibir
+```
+
+```
+run:
+Ya se conecto al Servidor
+Digite la palabra a comparar (1 para terminar): carro
+Rta del Servidor = No es palindromo.
+Digite la palabra a comparar (1 para terminar): oso
+Rta del Servidor = Es palindromo.
+Digite la palabra a comparar (1 para terminar): 1
+Ya termine de enviar
+```
