@@ -88,3 +88,55 @@ Para probar este sistema, debes compilar y ejecutar las clases en el orden corre
 ---
 
 ## 🖼️ Muestra de Ejecución
+
+Al empezar la ejecución de Servidor.java obtenemos: 
+```java
+run:
+Servidor --> Puerto de Escucha: 5000
+```
+
+Al ejecutar Cliente.java obtenemos en el output del Cliente.java
+```
+run:
+Cliente No.: 0 Direccion IP Cliente: /127.0.0.1
+BUILD SUCCESSFUL (total time: 0 seconds)
+```
+Y en el output del Servidor.java
+```
+run:
+Servidor --> Puerto de Escucha: 5000
+Sirvo al cliente 0
+```
+
+Al ejecutarlo una vez más se obtiene en el output del Cliente.java
+```
+run:
+Cliente No.: 1 Direccion IP Cliente: /127.0.0.1
+BUILD SUCCESSFUL (total time: 0 seconds)
+```
+
+Y en el output de Servidor.java
+```
+Servidor --> Puerto de Escucha: 5000
+Sirvo al cliente 0
+Sirvo al cliente 1
+```
+
+Si seguimos ejecutando va a haber un punto donde ya no vamos a poder generar más servicio a clientes debido a que el Servidor.java tiene un total de servicio para 3 clientes, delimitado por la siguiente línea de código: 
+
+```
+for (int numCli = 0; numCli < 3; numCli++) {
+                Socket sCliente = sServidor.accept(); 
+                System.out.println("Sirvo al cliente " + numCli);
+                
+                // 3. OBTENER FLUJO DE SALIDA DE DATOS
+                OutputStream aux = sCliente.getOutputStream();
+                DataOutputStream flujo = new DataOutputStream(aux);
+                
+                // 4. ENVÍO DE DATOS
+                flujo.writeUTF("Cliente No.: " + numCli +" Direccion IP Cliente: "+sCliente.getInetAddress());
+                
+                // 5. CIERRE DE RECURSOS DEL CLIENTE
+                sCliente.close();
+            }
+```
