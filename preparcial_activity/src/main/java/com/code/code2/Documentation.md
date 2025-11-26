@@ -144,3 +144,6 @@ for (int numCli = 0; numCli < 3; numCli++) {
 ## 🖼️ Imágenes
 <img width="398" height="167" alt="image" src="https://github.com/user-attachments/assets/e0a76c49-29ee-43d2-88da-14195e74fa35" />
 <img width="470" height="176" alt="image" src="https://github.com/user-attachments/assets/529059bf-25d7-4d95-8279-5122b1123261" />
+<img width="513" height="176" alt="image" src="https://github.com/user-attachments/assets/94e56b11-1488-49d1-8261-37789d6ed2e8" />
+<img width="430" height="195" alt="image" src="https://github.com/user-attachments/assets/ea09c845-2688-4982-88b1-4f93e792e9d0" />
+
