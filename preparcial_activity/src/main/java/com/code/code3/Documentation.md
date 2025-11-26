@@ -94,3 +94,9 @@ Rta del Servidor = Es palindromo.
 Digite la palabra a comparar (1 para terminar): 1
 Ya termine de enviar
 ```
+---
+## Imágenes:
+<img width="527" height="220" alt="image" src="https://github.com/user-attachments/assets/2526b08d-50cb-4956-aa9c-846a903a6d69" />
+<img width="518" height="251" alt="image" src="https://github.com/user-attachments/assets/fdf22e9d-cd53-455f-bcfa-d1f068f89d77" />
+
+
