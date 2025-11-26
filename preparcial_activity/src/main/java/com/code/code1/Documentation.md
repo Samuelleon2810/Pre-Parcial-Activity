@@ -60,3 +60,19 @@ Direccion IP actual de LocalHost
 192 168 1 8 
 BUILD SUCCESSFUL (total time: 1 second)
 ```
+```java
+run:
+URL & Direccioon IP:
+www.udistrital.edu.co/200.69.103.83
+Direccion IP: 
+/200.69.103.83
+Nombre & Direccion IP actual de LocalHost
+nikkaoyy/192.168.1.8
+Direccion IP del LocalHost: 
+/192.168.1.8
+Nombre actual de LocalHost
+nikkaoyy
+Direccion IP actual de LocalHost
+192 168 1 8 
+BUILD SUCCESSFUL (total time: 0 seconds)
+```
