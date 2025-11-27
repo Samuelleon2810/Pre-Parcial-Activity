@@ -76,5 +76,9 @@ El proceso se divide claramente en la fase de **Envío de Petición** y la fase 
     java com.code.code4.Cliente
     ```
 2.  El cliente solicitará los tres números por consola.
-
+---
 ### Ejemplo de Interacción (Cliente)
+<img width="623" height="254" alt="image" src="https://github.com/user-attachments/assets/5491cc97-36a4-4c46-890d-8681589ad504" />
+<img width="564" height="413" alt="image" src="https://github.com/user-attachments/assets/bae72be9-fc10-4230-8d93-ad24fd8fa83b" />
+<img width="521" height="339" alt="image" src="https://github.com/user-attachments/assets/e17e7b9c-3393-4441-b0ad-149ff2f39e62" />
+<img width="630" height="243" alt="image" src="https://github.com/user-attachments/assets/17afdefb-e6e6-4e54-8284-59d28faecb89" />
