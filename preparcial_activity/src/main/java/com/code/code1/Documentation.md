@@ -76,3 +76,9 @@ Direccion IP actual de LocalHost
 192 168 1 8 
 BUILD SUCCESSFUL (total time: 0 seconds)
 ```
+---
+
+## 🖼️ Imágenes:
+
+<img width="455" height="355" alt="image" src="https://github.com/user-attachments/assets/58ce6218-79c7-43d3-b822-18bc1f001d39" />
+<img width="490" height="358" alt="image" src="https://github.com/user-attachments/assets/c13269d1-7714-434e-b506-9050ab5f9a0f" />
